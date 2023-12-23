@@ -1,0 +1,11 @@
+/* Controlling.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #EEE;
+    margin: 0;
+    padding: 1rem;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}

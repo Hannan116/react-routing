@@ -1,0 +1,58 @@
+.section {
+    display: grid;
+    gap: 1rem;
+
+}
+
+.article {
+    margin: 0.5rem 0;
+    /* background-color: aliceblue; */
+}
+
+
+@media screen and (min-width:600px) {
+    .section {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .section {
+        grid-template-columns: auto auto;
+    }
+}
+
+.btn {
+    background-color: yellow;
+    padding: .5rem;
+
+    border: none;
+    border-radius: .6rem;
+    font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
+
+.paraBtn {
+    display: flex;
+}
+
+.blogsBtn {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding: .2rem;
+    border-radius: .3rem;
+}
+.blogsBtn:hover {
+    background-color: gray;
+    transform: scale(1.1);
+}
