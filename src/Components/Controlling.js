@@ -12,6 +12,7 @@ import Navbar from "./Navbar";
 
 const Controlling = () => {
   return (
+    
     <BrowserRouter>
       <Navbar />
       <Routes>

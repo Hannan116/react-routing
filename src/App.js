@@ -25,6 +25,9 @@ import React from "react";
 // import Component1 from "./Components/Prop-drilling/Component1";
 
 import Controlling from "./Components/Routing/Controlling";
+// import RoutingPage from "./Components/Hooks/useSearchParams/RoutingPage";
+
+// import Controlling from "./Components/Protected-routing/Controlling";
 
 export default function App() {
   // const handleChildData = (childData) => {
@@ -64,6 +67,8 @@ export default function App() {
       {/* <UseReducer /> */}
       {/* <Component1 /> */}
       <Controlling />
+      {/* <RoutingPage /> */}
+      {/* <Controlling /> */}
     </div>
   );
 }

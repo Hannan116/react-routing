@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+
 import { blogsData } from "../data";
 import { Link } from "react-router-dom";
 import style from "./blog.module.css";
+import PageTitle from "../PageTitle";
+
 const Blogs = () => {
   const [blogs, setBlogs] = useState(blogsData);
   const truncateSring = (str, num) => {
@@ -14,6 +17,7 @@ const Blogs = () => {
 
   return (
     <div>
+      <PageTitle title="Blogs" />
       <h1>Blogs Page</h1>
       <section className={style.section}>
         {blogs.map((blog) => {
